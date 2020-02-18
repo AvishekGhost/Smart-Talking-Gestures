@@ -1,0 +1,29 @@
+.addBtn {
+  margin: 0 .5rem;
+  color: #fafafa;
+  padding: .5rem 1.5rem;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 40px;
+  background-color: #406e8e;
+  border: 1px solid transparent;
+  transition: background 0.3s ease-out;
+}
+
+.addBtn:hover {
+  background: green;
+}
+
+.saveBtn {
+  margin: .5rem auto;
+  color: #fafafa;
+  padding: .5rem 1.5rem;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 40px;
+  background-color: #406e8e;
+  border: 1px solid transparent;
+  transition: background 0.3s ease-out;
+}
+
+.saveBtn:hover {
+  background: green;
+}
