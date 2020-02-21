@@ -1,0 +1,24 @@
+.labelContainer {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.labelContainer div {
+  padding: .1rem .3rem;
+  border: 1px solid black;
+  margin-bottom: .5rem;
+}
+
+.labelContainer div:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.webcams {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}

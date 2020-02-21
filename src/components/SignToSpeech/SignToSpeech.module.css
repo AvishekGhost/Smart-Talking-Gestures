@@ -1,0 +1,125 @@
+.SignToSpeech {
+  width: 100%;
+  background-color: lightcyan;
+  min-height: 100vh;
+  position: relative;
+}
+
+.wrapper {
+  border: 1px solid black;
+}
+
+.webcamContainer {
+  width: 100%;
+}
+
+.predictedAlphabetContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  background-color: #343a40;
+  position: relative;
+}
+
+.predictedAlphabetContainer .predictedAlphabetImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.createStringButton {
+  color: #fafafa;
+  padding: .5rem 1.5rem;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 40px;
+  background-color: #406e8e;
+  border: 1px solid transparent;
+  transition: background 0.3s ease-out;
+}
+
+.createStringButton:hover {
+  background: green;
+}
+
+.clearStringButton {
+  color: #000000;
+  padding: .5rem 1.5rem;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 40px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  transition: background 0.3s ease-out;
+}
+
+.clearStringButton:hover {
+  background: red;
+}
+
+.predictedStringContainer {
+  padding: 1rem;
+  min-height: 100px;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+  width: 650px;
+  background-color: #343a40;
+  justify-content: left;
+
+}
+
+.startSpeechButton {
+  color: #fafafa;
+  padding: .5rem 1.5rem;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  background-color: #406e8e;
+  transition: background 0.3s ease-out;
+  border: 1px solid transparent;
+}
+
+.startSpeechButton:hover {
+  background: green;
+}
+
+.stopSpeechButton {
+  padding: .5rem 1.5rem;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  background-color: #ffffff;
+  transition: background 0.3s ease-out;
+  border: 1px solid transparent;
+}
+
+.stopSpeechButton:hover {
+  background: red;
+}
+
+.responsiveIcon {
+  font-size: 1.75rem;
+}
+
+@media screen and (max-width: 992px) {
+  .createStringButton {
+    padding: .35rem .85rem;
+  }
+
+  .clearStringButton {
+    padding: .35rem .85rem;
+  }
+
+  .responsiveIcon {
+    font-size: 1.25rem;
+  }
+
+  .startSpeechButton {
+    padding: .4rem .9rem;
+  }
+
+  .stopSpeechButton {
+    padding: .4rem .9rem;
+  }
+}

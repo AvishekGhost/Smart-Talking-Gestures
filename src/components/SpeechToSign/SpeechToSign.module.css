@@ -1,0 +1,38 @@
+.inputContainer {
+  width: 50%;
+}
+
+.outputContainer {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.center {
+    margin: 0 auto; 
+    
+}
+
+.hover {
+    z-index: 100;
+    margin: 0 auto;
+    padding-top: 10rem; 
+}
+
+.micOn {
+  cursor: pointer;
+}
+
+.micOn:hover {
+  color: green;
+}
+
+.micOff {
+  cursor: pointer;
+}
+
+.micOff:hover {
+  color: red;
+}
