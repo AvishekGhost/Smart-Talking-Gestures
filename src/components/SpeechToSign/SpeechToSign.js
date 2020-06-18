@@ -150,8 +150,8 @@ const SpeechToSign = props => {
         <p> You'll get your results below..</p>
       )}{" "}
     </div>
-    <div className={classes.outputContainer}><div className={classes.hover}>
-    {" "}
+    <div className={classes.outputContainer}>
+      <div className={classes.hover}>
     <div className={classes.center}>
     {showImages
         ? outputImages.map((imgURL, index) => {

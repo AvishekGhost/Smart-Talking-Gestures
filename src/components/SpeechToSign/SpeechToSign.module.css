@@ -8,17 +8,17 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  min-height: 50vh;
 }
 
 .center {
-    margin: 0 auto; 
-    
+  margin: 0 auto; 
 }
 
 .hover {
-    z-index: 100;
-    margin: 0 auto;
-    padding-top: 10rem; 
+  z-index: 100;
+  margin: 0 auto;
+  padding-top: 10rem; 
 }
 
 .micOn {
