@@ -1,4 +1,4 @@
-# Smart Talking Gestures 🧏‍♂️✌👌
+# Smart Talking Gestures
 
 The app recognises [ASL](https://en.wikipedia.org/wiki/American_Sign_Language) hand gestures and translates it into speech using the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API), and vice-versa. Additionally, you can create your own gestures and teach the model to recognise them on the fly.<br /><br />
 ## Technologies Used
