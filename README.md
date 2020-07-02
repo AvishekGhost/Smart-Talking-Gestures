@@ -1,6 +1,5 @@
 # Smart Talking Gestures
-
-The app recognises [ASL](https://en.wikipedia.org/wiki/American_Sign_Language) hand gestures and translates it into speech using the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API), and vice-versa. Additionally, you can create your own gestures and teach the model to recognise them on the fly.<br /><br />
+A React web app that recognizes [ASL](https://en.wikipedia.org/wiki/American_Sign_Language) hand gestures and translates it into speech and vice-versa using the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API) and TensorflowJS's mobile net. Additionally, you can create your own gestures and teach the model to recognize them on the fly.<br /><br />
 ## Technologies Used
 
 -> [React](https://reactjs.org/) for building the UI of the application. Using a framework gives a lot of flexibility when generating dynamic content.<br />
